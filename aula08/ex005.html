@@ -18,9 +18,14 @@
     <h1>Iniciando estudos em DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
-    <div>Clique aqui</div>
+    <div id="msg">Clique aqui</div>
     <script>
-
+        var p1 = document.getElementsByTagName('p')[0]
+        document.write('Esta escrito assim: ' + p1.innerText)
+       var d = document.getElementById('msg')
+       d.style.background = 'green'
+       var d = document.querySelector('div#msg')
+       d.style.background = 'black'
     </script>
 </body>
 </html>
