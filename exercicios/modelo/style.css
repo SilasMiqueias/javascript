@@ -10,12 +10,22 @@
 body{
     background-color: rgb(46, 98, 175);
 }
+header h1{
+    color: white;
+    text-align: center;
+    
+}
 
 section{
     background-color: white;
     width: 400px;
-    height: 400px;
+    
     margin: auto;
-    margin-top: 50%;
-    bo
+    
+    border-radius: 20px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
