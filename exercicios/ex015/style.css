@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(46, 98, 175);
+}
+header h1{
+    color: white;
+    text-align: center;
+    
+}
+
+section{
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    
+    border-radius: 20px;
+}
+div{
+    padding: 20px;
+}
+div>p{
+    line-height: 50px;
+}
+#res{
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
