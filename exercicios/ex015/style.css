@@ -33,6 +33,9 @@ div>p{
 #res{
     text-align: center;
 }
+img{
+    border-radius: 50%;
+}
 
 footer p{
     color: white;
