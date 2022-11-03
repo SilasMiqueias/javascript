@@ -1,4 +1,5 @@
-var c = 1 
+var c = 1
 while(c <= 6){
-    console.log('Tudo bem?')
+    console.log('tudo bem?')
+    c++
 }
